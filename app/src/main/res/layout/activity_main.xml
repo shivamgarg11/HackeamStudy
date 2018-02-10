@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivam.hackeam.MainActivity">
+
+
+
+<ScrollView
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+       <Button
+           android:elevation="10dp"
+           android:id="@+id/btnclass1"
+           android:text="CLASS 1"
+           android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+           android:layout_width="300dp"
+           android:layout_height="70dp"
+           android:layout_gravity="center"
+           android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btnclass2"
+            android:text="CLASS 2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btnclass3"
+            android:text="CLASS 3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btnclass4"
+            android:text="CLASS 4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btnclass5"
+            android:text="CLASS 5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btnclass6"
+            android:text="CLASS 6"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btnclass7"
+            android:text="CLASS 7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btnclass8"
+            android:text="CLASS 8"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btnclass9"
+            android:text="CLASS 9"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btnclass10"
+            android:text="CLASS 10"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btnclass11"
+            android:text="CLASS 11"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btnclass12"
+            android:text="CLASS 12"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</FrameLayout>
