@@ -5,9 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity{
+public class EducationMainActivity extends AppCompatActivity{
 
     Button btnclass1,btnclass2,btnclass3,btnclass4,btnclass5,btnclass6,btnclass7,btnclass8,btnclass9,btnclass10,btnclass11,btnclass12;
 
@@ -32,7 +31,7 @@ public class MainActivity extends AppCompatActivity{
         btnclass1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,subjectMain2Activity.class);
+                Intent i=new Intent(EducationMainActivity.this,subjectMain2Activity.class);
                 startActivity(i);
             }
         });
@@ -41,7 +40,7 @@ public class MainActivity extends AppCompatActivity{
         btnclass2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,subjectMain2Activity.class);
+                Intent i=new Intent(EducationMainActivity.this,subjectMain2Activity.class);
                 startActivity(i);
             }
         });
@@ -50,7 +49,7 @@ public class MainActivity extends AppCompatActivity{
         btnclass3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,subjectMain2Activity.class);
+                Intent i=new Intent(EducationMainActivity.this,subjectMain2Activity.class);
                 startActivity(i);
             }
         });
@@ -59,7 +58,7 @@ public class MainActivity extends AppCompatActivity{
         btnclass4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,subjectMain2Activity.class);
+                Intent i=new Intent(EducationMainActivity.this,subjectMain2Activity.class);
                 startActivity(i);
             }
         });
@@ -68,7 +67,7 @@ public class MainActivity extends AppCompatActivity{
         btnclass5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,subjectMain2Activity.class);
+                Intent i=new Intent(EducationMainActivity.this,subjectMain2Activity.class);
                 startActivity(i);
             }
         });
@@ -77,7 +76,7 @@ public class MainActivity extends AppCompatActivity{
         btnclass6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,subjectMain2Activity.class);
+                Intent i=new Intent(EducationMainActivity.this,subjectMain2Activity.class);
                 startActivity(i);
             }
         });
@@ -86,7 +85,7 @@ public class MainActivity extends AppCompatActivity{
         btnclass7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,subjectMain2Activity.class);
+                Intent i=new Intent(EducationMainActivity.this,subjectMain2Activity.class);
                 startActivity(i);
             }
         });
@@ -95,7 +94,7 @@ public class MainActivity extends AppCompatActivity{
         btnclass8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,subjectMain2Activity.class);
+                Intent i=new Intent(EducationMainActivity.this,subjectMain2Activity.class);
                 startActivity(i);
             }
         });
@@ -104,7 +103,7 @@ public class MainActivity extends AppCompatActivity{
         btnclass9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,subjectMain2Activity.class);
+                Intent i=new Intent(EducationMainActivity.this,subjectMain2Activity.class);
                 startActivity(i);
             }
         });
@@ -113,7 +112,7 @@ public class MainActivity extends AppCompatActivity{
         btnclass10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,subjectMain2Activity.class);
+                Intent i=new Intent(EducationMainActivity.this,subjectMain2Activity.class);
                 startActivity(i);
             }
         });
@@ -122,7 +121,7 @@ public class MainActivity extends AppCompatActivity{
         btnclass11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,subjectsActivity.class);
+                Intent i=new Intent(EducationMainActivity.this,subjectsActivity.class);
                 startActivity(i);
 
             }
@@ -132,7 +131,7 @@ public class MainActivity extends AppCompatActivity{
         btnclass12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,subjectsActivity.class);
+                Intent i=new Intent(EducationMainActivity.this,subjectsActivity.class);
                 startActivity(i);
             }
         });

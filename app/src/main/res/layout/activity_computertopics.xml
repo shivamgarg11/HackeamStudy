@@ -25,7 +25,7 @@
             android:orientation="vertical">
 
             <Button
-
+                android:background="@drawable/roundbutton"
                 android:id="@+id/btnlinearsearch"
                 android:text="LINEAR SEARCH"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
@@ -36,6 +36,7 @@
 
 
             <Button
+                android:background="@drawable/roundbutton"
                 android:id="@+id/btnbinarysearch"
                 android:text="BINARY SEARCH"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
@@ -46,6 +47,7 @@
 
 
             <Button
+                android:background="@drawable/roundbutton"
                 android:id="@+id/btnbubblesort"
                 android:text="BUBBLE SORT"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
@@ -56,6 +58,7 @@
 
 
             <Button
+                android:background="@drawable/roundbutton"
                 android:id="@+id/btnselectionsort"
                 android:text="SELECTION SORT"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
@@ -66,6 +69,7 @@
 
 
             <Button
+                android:background="@drawable/roundbutton"
                 android:id="@+id/btninsertionsort"
                 android:text="INSERTION SORT"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
@@ -76,6 +80,7 @@
 
 
             <Button
+                android:background="@drawable/roundbutton"
                 android:id="@+id/btnlinkedlist"
                 android:text="LINKED LIST"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
@@ -86,6 +91,7 @@
 
 
             <Button
+                android:background="@drawable/roundbutton"
                 android:id="@+id/btnstacks"
                 android:text="STACKS"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
@@ -95,6 +101,7 @@
                 android:layout_margin="10dp"/>
 
             <Button
+                android:background="@drawable/roundbutton"
                 android:id="@+id/btnqueue"
                 android:text="QUEUE"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"

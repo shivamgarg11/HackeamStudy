@@ -5,8 +5,9 @@
     android:layout_height="220dp">
 
     <Button
+        android:background="@drawable/roundbutton"
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView2"
         android:layout_toEndOf="@+id/imageView2"
@@ -22,8 +23,9 @@
         app:srcCompat="@drawable/videoplayer" />
 
     <Button
+        android:background="@drawable/roundbutton"
         android:id="@+id/THEORY"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView3"
         android:layout_alignStart="@+id/button"
@@ -48,8 +50,9 @@
         app:srcCompat="@drawable/test" />
 
     <Button
+        android:background="@drawable/roundbutton"
         android:id="@+id/test"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView4"
         android:layout_toEndOf="@+id/imageView4"
